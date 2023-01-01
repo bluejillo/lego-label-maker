@@ -20,10 +20,8 @@ const LabelList = styled.ul`
     grid-template-rows: repeat(${ROWS}, var(--row-height));
     list-style: none;
     box-sizing: border-box;
-    width: ${PAGE_WIDTH};
-    height: ${PAGE_HEIGHT};
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 `;
 
 const LabelItem = styled.li`
