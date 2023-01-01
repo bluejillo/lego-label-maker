@@ -54,7 +54,7 @@ function UploadFile({ onSubmitHandler }) {
     <div className="upload-file__container">
         <p>Your CSV document must include the headers; 'PartID', 'PartName', and 'GroupID'.
         Part names will be line clamped to two lines.</p>
-        <p>For a full list of parts and part numbers available in Lego Label Maker, see Bricklink's <a href='https://www.bricklink.com/catalogList.asp?catType=P&colorPart=9&v=3' target="_blank">light grey parts list</a>.</p>
+        <p>For a full list of parts and part numbers available in Lego Label Maker, see Bricklink's <a href='https://www.bricklink.com/catalogList.asp?catType=P&colorPart=9&v=3' target="_blank" rel="noreferrer">light grey parts list</a>.</p>
         <p>To group labels for a "left" and "right" label, use a unique GroupID (only one pair per group). See example below.</p>
         <ExampleContainer>
             <strong>Example CSV:</strong>
