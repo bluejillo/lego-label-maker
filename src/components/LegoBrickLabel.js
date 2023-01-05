@@ -62,17 +62,17 @@ export const LegoBrickLabel = React.forwardRef((props, ref) => {
             let rightBrickPart, rightLabel;
             let leftBrickPart = parts[0];
             let leftLabel = (
-                <BrickPartLeft>
-                    <BrickImage src={`media/brick-images/${leftBrickPart.PartID}.png`}/>
-                    <BrickName>{leftBrickPart.PartName}</BrickName>
+                <BrickPartLeft data-testid={`left-brick-${leftBrickPart.PartID}`}>
+                    <BrickImage data-testid={`left-brick-img-${leftBrickPart.PartID}`} src={`media/brick-images/${leftBrickPart.PartID}.png`}/>
+                    <BrickName data-testid={`left-brick-name-${leftBrickPart.PartID}`}>{leftBrickPart.PartName}</BrickName>
                 </BrickPartLeft>
             );
             if(parts.length > 1) {
                 rightBrickPart = parts[1];
                 rightLabel = (
-                    <BrickPartRight>
-                        <BrickImage src={`media/brick-images/${rightBrickPart.PartID}.png`}/>
-                        <BrickName>{rightBrickPart.PartName}</BrickName>
+                    <BrickPartRight data-testid={`right-brick-${rightBrickPart.PartID}`}>
+                        <BrickImage data-testid={`right-brick-img-${rightBrickPart.PartID}`} src={`media/brick-images/${rightBrickPart.PartID}.png`}/>
+                        <BrickName data-testid={`right-brick-name-${rightBrickPart.PartID}`}>{rightBrickPart.PartName}</BrickName>
                     </BrickPartRight>
                 );
             }

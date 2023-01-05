@@ -1,8 +1,8 @@
 import './App.css';
 import { useState } from 'react';
 import styled from 'styled-components';
-import UploadFile from './uploadFile';
-import PrintLabels from './PrintLabels';
+import UploadFile from './components/UploadFile';
+import PrintLabels from './components/PrintLabels';
 
 const PageWrapper = styled.main`
     padding: 2rem;

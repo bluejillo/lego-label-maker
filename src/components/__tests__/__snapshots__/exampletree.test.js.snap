@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example table matches snapshot 1`] = `
+<table
+  className="sc-bcXHqe eHJstJ"
+>
+  <thead
+    className="sc-gswNZR bjjIGh"
+  >
+    <tr>
+      <th
+        className="sc-dkrFOg llaFUg"
+      >
+        PartID
+      </th>
+      <th
+        className="sc-dkrFOg llaFUg"
+      >
+        PartName
+      </th>
+      <th
+        className="sc-dkrFOg llaFUg"
+      >
+        GroupID
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        123
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        4 stud brick
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      />
+    </tr>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        222
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        1 stud brick
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        1
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        333
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        1 stud flat brick
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        1
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        555
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        transparent stud
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      />
+    </tr>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        456
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        6 stud brick
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        2
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        775
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        2x6 stud brick
+      </td>
+      <td
+        className="sc-hLBbgP eGqmFI"
+      >
+        2
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

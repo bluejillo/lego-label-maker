@@ -11,7 +11,7 @@ const StyledButton = styled.button`
 
 export const Button = (props) => {
     return(
-        <StyledButton onClick={props.onClick}>
+        <StyledButton data-testid='button-test' onClick={props.onClick}>
             {props.children}
         </StyledButton>
     );
